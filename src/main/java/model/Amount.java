@@ -2,11 +2,11 @@ package model;
 
 public class Amount {
     private String currency;
-    private double rate;
+    private double value;
 
-    public Amount(String currency, double rate) {
+    public Amount(String currency, double value) {
         this.currency = currency;
-        this.rate = rate;
+        this.value = value;
     }
 
     public String getCurrency() {
@@ -17,11 +17,11 @@ public class Amount {
         this.currency = currency;
     }
 
-    public double getRate() {
-        return rate;
+    public double getValue() {
+        return value;
     }
 
-    public void setRate(double rate) {
-        this.rate = rate;
+    public void setRate(double value) {
+        this.value = value;
     }
 }

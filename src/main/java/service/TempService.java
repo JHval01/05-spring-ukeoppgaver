@@ -10,7 +10,7 @@ public class TempService {
     public final Integer[] tempArray = new Integer[]{-3, -2, 2, 7, 12, 16, 18, 17, 12, 7, 3, -2};
 
     public int getTemp(String mnd){
-        return switch(mnd.toLowerCase(Locale.ROOT)){
+        return switch(mnd.toLowerCase()){
             case "januar" -> tempArray[0];
             case "februar" -> tempArray[1];
             case "mars" -> tempArray[2];
